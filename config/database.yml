@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  pool: 20
+  timeout: 5000
+  database: query_processor_development
+  username: sachinswagh
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  pool: 20
+  timeout: 5000
+  database: query_processor_test
+  username: sachinswagh
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  pool: 20
+  timeout: 5000
+  database: query_processor_production
+  username: sachinswagh
+  password:

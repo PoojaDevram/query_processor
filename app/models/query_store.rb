@@ -1,0 +1,2 @@
+class QueryStore < ApplicationRecord
+end
